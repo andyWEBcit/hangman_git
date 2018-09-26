@@ -1,0 +1,32 @@
+/* body{
+background-image: url("../images/random_words.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+} */
+
+#hangLoop {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  transition: 500ms;
+  width: 9%;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+#invitation{
+text-align: center;
+  margin-top: -10%;
+  transition: 500ms;
+  opacity: 0;
+  color: red;
+}
+/*
+#invitation:hover{
+  transition: 500ms;
+  opacity: 1;
+} */
